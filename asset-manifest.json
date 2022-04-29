@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Chaitra-Kulkarni/Product-Site.git/static/css/main.f353deab.css",
+    "main.js": "/Chaitra-Kulkarni/Product-Site.git/static/js/main.8c024ffe.js",
+    "index.html": "/Chaitra-Kulkarni/Product-Site.git/index.html",
+    "main.f353deab.css.map": "/Chaitra-Kulkarni/Product-Site.git/static/css/main.f353deab.css.map",
+    "main.8c024ffe.js.map": "/Chaitra-Kulkarni/Product-Site.git/static/js/main.8c024ffe.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f353deab.css",
+    "static/js/main.8c024ffe.js"
+  ]
+}
