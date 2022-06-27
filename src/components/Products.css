@@ -1,0 +1,31 @@
+.products-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 80%;
+}
+
+.product-details {
+    width: 250px;
+    background: #fff;
+    color: #000;
+    border: 1px solid #000;
+    margin: 5px;
+}
+
+.cart-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(211, 245, 89);
+}
+
+.cart-button {
+    background: rgb(7, 27, 117);
+    color: #fff;
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+}

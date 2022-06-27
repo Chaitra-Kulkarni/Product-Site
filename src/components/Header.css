@@ -1,0 +1,26 @@
+.header {
+    background: rgb(211, 245, 89);
+    color: #000;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.search-bar {
+    height: 40px;
+    width: 30%;
+    border: 1px solid rgb(10, 29, 1);
+    border-radius: 5px;
+}
+
+::placeholder {
+    font-size: 15px;
+}
+
+.nav-bar label {
+    font-size: larger;
+    font-weight: 500;
+}

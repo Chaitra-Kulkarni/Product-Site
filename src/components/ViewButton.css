@@ -1,0 +1,18 @@
+.view-button-wrapper {
+    display: flex;
+    justify-content: center;
+    background: rgb(227, 255, 128);
+    padding: 20px 0;
+}
+
+.view-button {
+    height: 40px;
+    width: auto;
+    background: #000;
+    color: #f0f8ff;
+    font-size: 18px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
