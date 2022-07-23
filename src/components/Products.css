@@ -16,11 +16,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: rgb(211, 245, 89);
+    background: #d5ff7b;
 }
 
 .cart-button {
-    background: rgb(7, 27, 117);
+    background: #33394f;
     color: #fff;
     padding: 10px;
     font-size: 18px;

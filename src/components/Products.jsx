@@ -8,7 +8,7 @@ const Products = (props) => {
   const updateCount = (productId, inc, dec) => {
     if (itemCount[productId]) {
       let countObj = inc ? itemCount[productId] + 1 : itemCount[productId] - 1;
-      setItemCount({ ...itemCount, [productId]:  countObj});
+      setItemCount({ ...itemCount, [productId]: countObj });
     } else {
       if (!dec) {
         setItemCount({ ...itemCount, [productId]: 1 });
@@ -16,14 +16,8 @@ const Products = (props) => {
     }
   };
 
-//   {
-//       "dddf-deddfd-erfd": 1,
-//       "asdasd-erdsd-3ewe": 5,
-//       "dsdsdd-eww-wewe": 4
-//   }
-
-//updateCarTotal
-//fromItemCOunt objec get total
+  //updateCarTotal
+  //fromItemCOunt objec get total
 
   return (
     <div className="products-wrapper">
@@ -31,7 +25,7 @@ const Products = (props) => {
         return (
           <div className="product-details" key={product.id}>
             <h4>{product.title}</h4>
-            <img src={product.image} width="200px" height="250px" />
+            <img src={product.image} width="220px" height="220px" />
             <div className="cart-details">
               <div>
                 <p>Price: {product.price}</p>
@@ -47,7 +41,7 @@ const Products = (props) => {
                   -
                 </button>
                 <button className="cart-button">
-                  Add: {itemCount[product.id + product.title] || 0}
+                  {itemCount[product.id + product.title] || 0}
                 </button>
                 <button
                   className="cart-button"

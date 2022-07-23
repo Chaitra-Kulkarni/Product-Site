@@ -1,5 +1,5 @@
 .header {
-    background: rgb(211, 245, 89);
+    background: #d9fb91;
     color: #000;
 }
 
@@ -9,10 +9,18 @@
     align-items: center;
 }
 
+h2 {
+    color: #fff;
+    background-color: #33394f;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+
 .search-bar {
     height: 40px;
     width: 30%;
-    border: 1px solid rgb(10, 29, 1);
+    border: 1px solid #33394f;
     border-radius: 5px;
 }
 
